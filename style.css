@@ -57,12 +57,12 @@ button {
 
 /* mobile size  */
 
-body {
+/* body {
   background-color: #333;
 }
 
 .module {
-  height: 100vh; /* Use vh as a fallback for browsers that do not support Custom Properties  */
+  height: 100vh; /* Use vh as a fallback for browsers that do not support Custom Properties */
   height: calc(var(--vh, 1vh) * 100);
   margin: 0 auto;
   max-width: 30%;
@@ -78,9 +78,9 @@ body {
 .module__item:nth-child(odd) {
   background-color: #fff;
   color: #F73859;
-}
+} 
 
 .module__item:nth-child(even) {
   background-color: #F73859;
   color: #F1D08A;
- } 
+}
